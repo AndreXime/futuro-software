@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function CTA() {
 	return (
 		<section className="py-16 text-center bg-base-200 px-8">
@@ -9,7 +11,11 @@ export default function CTA() {
 					Entre em contato e descubra como podemos criar soluções inovadoras para impulsionar o seu negócio. Não perca a
 					chance de levar sua empresa para o próximo nível!
 				</p>
-				<button className="mt-6 px-6 py-3 btn btn-primary font-bold">Entre em Contato</button>
+				<Link
+					href={'/contato'}
+					className="mt-6 px-6 py-3 btn btn-primary font-bold">
+					Entre em Contato
+				</Link>
 			</div>
 		</section>
 	);

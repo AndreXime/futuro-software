@@ -2,11 +2,11 @@
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { FaBars, FaBox, FaX } from 'react-icons/fa6';
 import { useState } from 'react';
+import Link from 'next/link';
 
 const navigation = [
-	{ name: 'Produtos', href: '#' },
-	{ name: 'Serviços', href: '#' },
-	{ name: 'Sobre', href: '#' },
+	{ name: 'Serviços', href: '/servicos' },
+	{ name: 'Contato', href: '/contato' },
 ];
 
 export default function Nav() {
@@ -18,12 +18,12 @@ export default function Nav() {
 				aria-label="Global"
 				className="flex items-center justify-between p-6 lg:px-8">
 				<div className="flex lg:flex-1">
-					<a
-						href="#"
+					<Link
+						href="/"
 						className="-m-1.5 p-1.5">
 						<span className="sr-only">Futuro Software</span>
 						<FaBox size={25} />
-					</a>
+					</Link>
 				</div>
 				<div className="flex lg:hidden">
 					<button
@@ -39,20 +39,20 @@ export default function Nav() {
 				</div>
 				<div className="hidden lg:flex lg:gap-x-12">
 					{navigation.map((item) => (
-						<a
+						<Link
 							key={item.name}
 							href={item.href}
 							className="text-sm/6 font-semibold text-gray-900">
 							{item.name}
-						</a>
+						</Link>
 					))}
 				</div>
 				<div className="hidden lg:flex lg:flex-1 lg:justify-end">
-					<a
-						href="#"
+					<Link
+						href="/acessar"
 						className="text-sm/6 font-semibold text-gray-900">
 						Entrar <span aria-hidden="true">&rarr;</span>
-					</a>
+					</Link>
 				</div>
 			</nav>
 			<Dialog
@@ -77,20 +77,20 @@ export default function Nav() {
 						<div className="-my-6 divide-y divide-gray-500/10">
 							<div className=" py-6">
 								{navigation.map((item) => (
-									<a
+									<Link
 										key={item.name}
 										href={item.href}
 										className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
 										{item.name}
-									</a>
+									</Link>
 								))}
 							</div>
 							<div className="py-6">
-								<a
-									href="#"
+								<Link
+									href="/acessar"
 									className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
 									Entrar
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>

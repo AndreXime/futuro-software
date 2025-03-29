@@ -16,7 +16,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="pt-br">
-			<body className={`${Font_Roboto.variable} min-h-dvh flex flex-col antialiased`}>{children}</body>
+			<body className={`${Font_Roboto.variable} min-h-dvh flex flex-col antialiased overflow-x-hidden`}>
+				{children}
+			</body>
 		</html>
 	);
 }

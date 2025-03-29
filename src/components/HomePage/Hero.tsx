@@ -1,4 +1,4 @@
-import BackgroundEffect from './BackgroundEffect';
+import BackgroundEffect from '../shared/BackgroundEffect';
 
 export default function Hero() {
 	return (
@@ -16,12 +16,12 @@ export default function Hero() {
 					</p>
 					<div className="mt-10 flex items-center justify-center gap-x-6">
 						<a
-							href="#"
+							href="/acessar"
 							className="btn btn-primary btn-soft">
 							Começar agora
 						</a>
 						<a
-							href="#"
+							href="/servicos"
 							className="btn btn-ghost">
 							Saber mais <span aria-hidden="true">→</span>
 						</a>

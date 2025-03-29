@@ -1,4 +1,4 @@
-import { Nav, Footer, Hero, Teams, CTASection, About, Services } from '@/components';
+import { Nav, Footer, Hero, Teams, CTASection, About, Services } from '@/components/HomePage';
 
 export default function Home() {
 	return (
