@@ -9,30 +9,28 @@ export default function Form() {
 						className="absolute inset-0"
 						style={{ filter: 'grayscale(1), contrast(1.2) opacity(0.4)' }}
 						title="map"
-						src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"></iframe>
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.093011705659!2d-47.863343825434484!3d-15.799048884841977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a309ae31de7d3%3A0xc7c45a6f5981ca10!2sPal%C3%A1cio%20do%20Planalto!5e0!3m2!1spt-BR!2sbr!4v1743258906971!5m2!1spt-BR!2sbr"></iframe>
 					<div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
 						<div className="lg:w-1/2 px-6">
-							<h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-							<p className="mt-1">Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter</p>
+							<h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ENDEREÇO</h2>
+							<p className="mt-1">Rua das Acácias, 123, Bairro Primavera, São Paulo - SP, 01234-567</p>
 						</div>
 						<div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
 							<h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-							<a className="text-indigo-500 leading-relaxed">example@email.com</a>
-							<h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-							<p className="leading-relaxed">123-456-7890</p>
+							<a className="text-indigo-500 leading-relaxed">suporte@email.com</a>
+							<h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">TELEFONE</h2>
+							<p className="leading-relaxed">(11) 98765-4321</p>
 						</div>
 					</div>
 				</div>
-				<div className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 ">
+				<div className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 bg-base-100 p-7 ">
 					<h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Entrar em contato</h2>
-					<p className="leading-relaxed mb-5 text-gray-600">
-						Você pode entrar em contato por email, telefone, rede sociais ou por esse formulario
-					</p>
+					<p className="leading-relaxed mb-5 text-gray-600">Reponderemos o mais rápido possível</p>
 					<div className="relative mb-4">
 						<label
 							htmlFor="name"
 							className="leading-7 text-sm text-gray-600">
-							Name
+							Nome
 						</label>
 						<input
 							type="text"
@@ -58,7 +56,7 @@ export default function Form() {
 						<label
 							htmlFor="message"
 							className="leading-7 text-sm text-gray-600">
-							Message
+							Mensagem
 						</label>
 						<textarea
 							id="message"
@@ -66,7 +64,7 @@ export default function Form() {
 							className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
 					</div>
 					<button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-						Button
+						Enviar
 					</button>
 				</div>
 			</div>

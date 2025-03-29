@@ -7,8 +7,17 @@ export default function Home() {
 	return (
 		<>
 			<Nav />
-			<main className="grow relative p-5">
+			<main className="grow relative py-20">
 				<BackgroundEffect />
+				<div className="flex items-center justify-center text-center mt-10">
+					<div className="space-y-2">
+						<h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Nossos Serviços Completo</h2>
+						<p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
+							Os preços podem variar conforme a complexidade do seu projeto, garantindo soluções personalizadas para
+							cada necessidade.
+						</p>
+					</div>
+				</div>
 				<section className="text-gray-600 body-font">
 					<div className="container px-5 py-24 mx-auto">
 						<div className="flex flex-wrap">
