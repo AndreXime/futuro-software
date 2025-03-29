@@ -5,7 +5,7 @@ const Team = [
 	{
 		image: '/linus.webp',
 		name: 'Linus Tovalds',
-		role: 'Founder CEO',
+		role: 'Fundador CEO & Desenvolvedor',
 	},
 	{
 		image: '/foto.jpg',

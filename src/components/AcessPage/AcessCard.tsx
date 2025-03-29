@@ -104,8 +104,8 @@ export default function CardAcess() {
 		);
 	} else {
 		return (
-			<div className="relative flex flex-col sm:justify-center items-center  py-20">
-				<div className="relative sm:max-w-sm w-full">
+			<div className="relative flex flex-col sm:justify-center items-center py-20">
+				<div className="relative w-full">
 					<div className="card bg-blue-400 shadow-lg  w-full h-full rounded-3xl absolute  transform -rotate-6"></div>
 					<div className="card bg-red-400 shadow-lg  w-full h-full rounded-3xl absolute  transform rotate-6"></div>
 					<div className="relative w-full rounded-3xl  px-6 py-4 bg-gray-100 shadow-md">

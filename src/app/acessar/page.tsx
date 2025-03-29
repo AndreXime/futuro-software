@@ -6,7 +6,7 @@ export default function Home() {
 	return (
 		<>
 			<Nav />
-			<main className="grow relative">
+			<main className="grow relative px-7">
 				<BackgroundEffect />
 				<CardAcess />
 			</main>
